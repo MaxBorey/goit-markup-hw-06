@@ -344,6 +344,7 @@ img {
 @media only screen and (min-width:1158px) and (min-resolution: 192dpi) {
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-desktop@2x.jpg);
+        margin-bottom: 96px;
     }
 }
 
@@ -392,11 +393,78 @@ img {
 .hero {
     padding: 188px 0;
     max-width: 1440px;
+    margin-bottom: 96px;
 }
 .hero-button {
     line-height: 1.5;
     font-weight: 500px;
     letter-spacing: 0.04em;
 }
+}
+/* #endregion */
+/* #region section 2 */
+.features {
+    padding: 0;
+    margin-bottom: 96px;
+    max-width: 320px;
+}
+
+@media only screen and (min-width:768px) {
+    .hero {
+        max-width:736px;
+}
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(100%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.feauteres-icon {
+    display: none;
+}
+.features-title-items {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.features-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+@media only screen and (min-width:768px) {
+.features-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+}
+.features-title-items {
+    
+}
+
 }
 /* #endregion */
