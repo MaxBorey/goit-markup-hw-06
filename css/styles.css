@@ -740,15 +740,17 @@ padding: 0 16px;
 
 .footer {
     background-color: #2e2f42;
+    padding: 96px 0;
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-  {
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-    padding: 0;
-    margin: 0 auto;
-}
+ .container-footer {
+     display: flex;
+     align-items: baseline;
+ }
 
 
 .container-footer-logo {
@@ -757,6 +759,10 @@ padding: 0 16px;
     gap: 16px;
 }
 
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .logo-footer {
     color: #f4f4fd;
 }
@@ -867,6 +873,14 @@ padding: 0 16px;
     .social-text {
         text-align: center;
     }
+        .footer {
+            background-color: #2e2f42;
+            padding: 96px 0;
+            display: flex;
+            align-items: baseline;
+            margin: 0 auto;
+            justify-content: center;
+        }
 }
 
 
