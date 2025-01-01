@@ -871,85 +871,83 @@ padding: 0 16px;
 }
 
 @media screen and (max-width: 767px) {
-    .footer .container {
-        gap: 72px 0;
-    }
+.footer .container {
+    gap: 72px 0;
+}
 
-    .footer .logo,
-    .social-text,
-    .footer-form-title {
-        text-align: center;
-    }
+.footer .logo,
+.social-text,
+.footer-form-title {
+    text-align: center;
+}
 
-    .footer-icons-list {
-        margin: 0 auto;
-    }
+.footer-icons-list {
+    margin: 0 auto;
+}
 
-    .footer-form {
-        align-items: center;
-    }
+.footer-form {
+    align-items: center;
+}
 }
 
 @media screen and (min-width: 768px) {
-    .footer .container {
-        flex-direction: row;
-        flex-wrap: wrap;
-        /* display: flex;
-        align-items: baseline;
-        justify-content: space-between; */
-    }
+.footer .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+     
+}
 
-    .footer-text-container {
-        width: 264px;
-    }
+.footer-text-container {
+    width: 264px;
+}
 
-    .footer-form {
-        flex-direction: row;
-        gap: 24px;
-    }
+.footer-form {
+    flex-direction: row;
+    gap: 24px;
+}
 
-    .form-input {
-        width: 264px;
-    }
+.form-input {
+    width: 264px;
+}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-    .footer .container {
-        padding-left: 92px;
-    }
+.footer .container {
+    padding-left: 92px;
+}
 
-    .footer-social-container {
-        margin-left: 24px;
-    }
+.footer-social-container {
+    margin-left: 24px;
+}
 
-    .footer-text-container {
-        margin-bottom: 72px;
-    }
+.footer-text-container {
+    margin-bottom: 72px;
+}
 
 }
 
 @media screen and (max-width: 1157px) {
-    .form-input {
-        opacity: 0.3;
-    }
+.form-input {
+    opacity: 0.3;
+}
 
-    .form-input::placeholder {
-        opacity: 0.6;
-    }
+.form-input::placeholder {
+    opacity: 0.6;
+}
 }
 
 @media screen and (min-width: 1158px) {
-    .footer {
-        padding: 100px 0;
-    }
+.footer {
+    padding: 100px 0;
+}
 
-    .footer-text-container {
-        margin-right: 120px;
-    }
+.footer-text-container {
+    margin-right: 120px;
+}
 
-    .footer-social-container {
-        margin-right: 80px;
-    }
+.footer-social-container {
+    margin-right: 80px;
+}
 }
 
 /* #endregion */
@@ -957,15 +955,15 @@ padding: 0 16px;
 /* #region modal */
 @media only screen and (min-width:768px) {
     .modal {
-        max-width: 768px;
-    }
+    max-width: 768px;
+}
 }
 
 @media only screen and (min-width:1158px) {
 
     .modal {
-        max-width: 1158px;
-    }
+    max-width: 1158px;
+}
 }
 
 .modal-overlay {
